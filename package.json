@@ -1,0 +1,17 @@
+{
+  "name": "polygon-intersect-test",
+  "version": "1.0.0",
+  "description": "determine whether two polygons intersect in 2d",
+  "main": "index.js",
+  "devDependencies": {
+    "tape": "^5.2.2"
+  },
+  "dependencies": {
+    "line-segment-intersect-2d": "^1.0.0",
+    "point-in-polygon": "^1.1.0"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "license": "bsd"
+}
